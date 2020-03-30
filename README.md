@@ -64,6 +64,9 @@ php artisan passport:install
 
 ![Jale mechanisme](https://i.imgur.com/xo26pFf.png)
 
+## Structure
+// To Do
+
 ## Contributing
 
 1. Clone it (<https://github.com/skytrendma/augurisk-api.git>)
