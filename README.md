@@ -65,7 +65,7 @@ php artisan passport:install
 ![Jale mechanisme](https://i.imgur.com/xo26pFf.png)
 
 ## Structure
-// To Do
+![Jale structure](https://i.imgur.com/FtXi1g7.png)
 
 ## Contributing
 
