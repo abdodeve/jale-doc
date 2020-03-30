@@ -1,14 +1,10 @@
 
-
-  
-  
-
 # Jale
 
 > Site pédagogique a pour vocation de sensibiliser à l'énergie
-<center>
-![Jale](https://i.imgur.com/bLMGLgl.png)
-</center>
+
+<center> ![Jale](https://i.imgur.com/bLMGLgl.png) </center>
+
 Ce site pédagogique a pour vocation de sensibiliser à l’énergie, ses enjeux et ses opportunités, dans un contexte de transition énergétique. Cette transition s’opère à tous les niveaux de la chaîne énergétique. Les modes, visions, emplois et solutions sont revus en profondeur pour correspondre aux besoins du monde d’aujourd’hui et de demain : responsable, durable et solidaire.
 
 
