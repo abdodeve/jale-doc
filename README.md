@@ -1,4 +1,5 @@
 
+
 # Jale
 
 > Site pédagogique a pour vocation de sensibiliser à l'énergie
@@ -64,8 +65,16 @@ php artisan passport:install
 
 ![Jale mechanisme](https://i.imgur.com/xo26pFf.png)
 
+* Ambassadeur : Peut acceder à (/ambassadeurs) et front office (/home)
+* Utilisateur : Peut acceder à front office (/home)
+* Admin : Peut acceder à tous + espace admin (/admin)
+
 ## Structure
 ![Jale structure](https://i.imgur.com/FtXi1g7.png)
+
+* /app : Responsable de la partie front office, contient les controllers, models etc ..
+* /app/Nova : Responsable de la partie back office, contient les ressources, actions etc ..
+* /app/resources : Contient les fichiers  de blade files, js, css, components (vue.js)
 
 ## Contributing
 
