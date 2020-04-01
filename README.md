@@ -57,10 +57,6 @@ php artisan migrate
 ```sh
 php artisan db:seed
 ```
-```sh
-php artisan passport:install
-```
-
 ## Mechanisme
 
 ![Jale mechanisme](https://i.imgur.com/xo26pFf.png)
