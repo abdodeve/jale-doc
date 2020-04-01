@@ -78,7 +78,7 @@ php artisan passport:install
 
 ## Contributing
 
-1. Clone it (<https://github.com/skytrendma/augurisk-api.git>)
+1. Clone it (<https://github.tools.digital.engie.com/NewcorpHQJale/jale-website>)
 
 2. Create your feature branch (`git checkout -b feature/featureName`)
 
