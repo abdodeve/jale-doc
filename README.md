@@ -1,5 +1,6 @@
 
 
+
 # Jale
 
 > Site pédagogique a pour vocation de sensibiliser à l'énergie
@@ -77,6 +78,13 @@ npm run gulp
 npm run dev
 
 ```
+
+## Nova basics
+
+* Toutes les ressources de Nova stocké dans app/Nova repertoire
+* Création d'un nouveau ressource : ```php artisan nova:resource monNouveauRessource ```
+* Definition de model qui est reponsable à cette ressource 
+``` Public static $model = 'App\monNouveauRessource' ; ```
 
 ## Mechanisme
 
