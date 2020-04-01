@@ -17,13 +17,17 @@ Ce site pédagogique a pour vocation de sensibiliser à l’énergie, ses enjeux
 
 * PHP version 7 or later.
 
+* Node.js 10 or later.
+
 * Apache or Nginx
 
 * MySql or MariaDB
 
 ## Uses/Features
 
-* [Php 7+](https://nodejs.org/): Runtime environment
+* [Php 7+](https://www.php.net): PHP language
+
+* [npm](https://npmjs.com) or gulp: Package manager
 
 * [Laravel 5,7](https://laravel.com): PHP Framework for build web applications
 
@@ -34,6 +38,8 @@ Ce site pédagogique a pour vocation de sensibiliser à l’énergie, ses enjeux
 * [Vue.js 2.6](https://vuejs.org): The Progressive  JavaScript Framework
 
 ## Installation
+
+### Backend
 
 ```sh
 
@@ -57,6 +63,21 @@ php artisan migrate
 ```sh
 php artisan db:seed
 ```
+
+### Frontend
+
+```sh
+
+npm run gulp
+
+```
+
+```sh
+
+npm run dev
+
+```
+
 ## Mechanisme
 
 ![Jale mechanisme](https://i.imgur.com/xo26pFf.png)
