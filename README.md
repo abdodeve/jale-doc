@@ -87,6 +87,11 @@ npm run dev
 * Ambassadeur : Peut acceder à (/ambassadeurs) et front office (/)
 * Utilisateur : Peut acceder à front office (/)
 * Admin : Peut acceder à tous + espace admin (/admin)
+* Route: routes/web.php
+* Controllers: app/http/controllers
+* Repositories: app/Repositories
+* Views: ressources/view
+* Logic path: route -> controller -> repository -> view
 
 ## Structure
 ![Jale structure](https://i.imgur.com/FtXi1g7.png)
