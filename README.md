@@ -43,9 +43,7 @@ Ce site pédagogique a pour vocation de sensibiliser à l’énergie, ses enjeux
 ### Backend
 
 ```sh
-
 git clone https://github.tools.digital.engie.com/NewcorpHQJale/jale-website.git
-
 ```
 
 ```sh
@@ -68,30 +66,26 @@ php artisan db:seed
 ### Frontend
 
 ```sh
-
 npm run gulp
-
 ```
 
 ```sh
-
 npm run dev
-
 ```
 
 ## Nova basics
 
 * Toutes les ressources de Nova stocké dans app/Nova repertoire
-* Création d'un nouveau ressource : ```php artisan nova:resource monNouveauRessource ```
+* Création d'un nouveau ressource : ```php artisan nova:resource MonNouveauRessource ```
 * Definition de model qui est reponsable à cette ressource 
-``` Public static $model = 'App\monNouveauRessource' ; ```
+``` Public static $model = 'App\Nova\MonNouveauRessource' ; ```
 
 ## Mechanisme
 
 ![Jale mechanisme](https://i.imgur.com/xo26pFf.png)
 
-* Ambassadeur : Peut acceder à (/ambassadeurs) et front office (/home)
-* Utilisateur : Peut acceder à front office (/home)
+* Ambassadeur : Peut acceder à (/ambassadeurs) et front office (/)
+* Utilisateur : Peut acceder à front office (/)
 * Admin : Peut acceder à tous + espace admin (/admin)
 
 ## Structure
